@@ -1,4 +1,7 @@
 const Questions = {
+  ADDS: [
+    {q: 'Which command is used to check FSMO role?', a: 'netdom query fsmo', tag: '0'},
+  ],
   network1: [
     { q: 'OSI model', a: '7) Application<br>6) Presentation<br>5) Session<br>4) Transport<br>3) Network <br>2) Data Link <br>1) Physical', tag: 0 },
     { q: 'TCP/IP model', a: '4) Application<br>3)Transport<br>2) Internet<br> 1) Network Access', tag: 0 },
