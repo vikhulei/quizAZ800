@@ -9,7 +9,10 @@ const Questions = {
     {q: 'Which folder are started GPOs stored at?', a: 'StartGPO in SYSVOL', tag: 0},
     {q: '', a: '', tag: 0},
   ],
-  
+  Management: [
+    {q: 'What are two ways to connect Windiows Admin Center to Azure VM?', a: '1) Assign public IP to VM;<br>2) Use VPN', tag: 0},
+    {q: '', a: '', tag: 0},
+  ],
 
 };
 

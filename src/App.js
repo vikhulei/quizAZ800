@@ -54,6 +54,7 @@ const App = () => {
       <div className="top_bar">
         <select name="category" id="category" onChange={click_category}>
           <option value='ADDS'>ADDS</option>
+          <option value='Management'>Management</option>
         </select>
         <div className="repeat">
           <label>R</label>
