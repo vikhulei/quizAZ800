@@ -8,7 +8,8 @@ const Questions = {
     {q: 'Which tool is used to trigger ADDS schema update?', a: 'ADSIEDIT.MSC', tag: 0},
     {q: 'Which folder are started GPOs stored at?', a: 'StartGPO in SYSVOL', tag: 0},
     {q: 'How to set up replication between two sites?', a: '1) Create sites and move DCs to them<br>2) Create connection objects for the pair of DCs', tag: 0},
-    {q: 'Which console is used to transfer FSMO role?', a: 'Active Directory Users and Computers', tag: 0},
+    {q: 'Which consoles ares used to transfer FSMO roles?', a: '1) Schema master - AD Schema<br>2) Domain naming - AD Domain and Trusts<br>3) RID, PDC and Infrasturcture - AD Usera and Computers<br> 4)Ntdsutil.exe - for all and to seize', tag: 0},
+    {q: 'Which account to use to sync on-prem AD with Azure AD tenant using Azure AD Connect?', a: 'group managed service account (gMSA)', tag: 0},
     {q: '', a: '', tag: 0},
   ],
   Management: [
