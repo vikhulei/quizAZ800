@@ -8,6 +8,8 @@ const Questions = {
     {q: 'Which tool is used to trigger ADDS schema update?', a: 'ADSIEDIT.MSC', tag: 0},
     {q: 'Which folder are started GPOs stored at?', a: 'StartGPO in SYSVOL', tag: 0},
     {q: 'How to set up replication between two sites?', a: '1) Create sites and move DCs to them<br>2) Create connection objects for the pair of DCs', tag: 0},
+    {q: 'Which console is used to transfer FSMO role?', a: 'Active Directory Users and Computers', tag: 0},
+    {q: '', a: '', tag: 0},
   ],
   Management: [
     {q: 'What are two ways to connect Windows Admin Center to Azure VM?', a: '1) Assign public IP to VM;<br>2) Use VPN', tag: 0},
