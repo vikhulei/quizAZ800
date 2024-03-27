@@ -22,7 +22,7 @@ const Questions = {
     {q: '', a: '', tag: 0},
   ],
   Network: [
-    {q: 'Question about network', a: 'Answer about network', tag: 0},
+    {q: 'How many addresses are reserved in each subnet?', a: 'First four addresses', tag: 0},
     {q: '', a: '', tag: 0},
   ],
   Storage: [
