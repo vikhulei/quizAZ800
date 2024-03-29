@@ -30,7 +30,7 @@ const Questions = {
     {q: 'Which tool is used for creating and editing Delegation of Control?', a: '1) Cration - Delegation of Control Wizard<br>2) Editing - AD Users and Computers', tag: 0},
     {q: 'Which OS is recommended for Priviledged Access Workstation?', a: 'Windows 10 Enterprise is recommended for PAW', tag: 0},
     {q: 'Which two options does admin have to separate day-today tasks with admin activity?', a: '1) Dedicated hardware<br>2) Running VM for daily use', tag: 0},
-    {q: '', a: '', tag: 0},
+    {q: 'What is a jump server? What are its security features', a: '1) Jump server is a hardened server in a different security zone (between internal and perimeter networks)<br>2) Security features: Windows Defender Credential Guard, Remote Credential Guard, Device Guard', tag: 0},
     {q: '', a: '', tag: 0},
   ],
   VMs_and_Containers: [
