@@ -27,10 +27,15 @@ const Questions = {
   ],
   Management: [
     {q: 'What is Just Enough Administration used for and which tool is used?', a: '1) It is used to set limits to specific tasks;<br>2) Only PowerShell remoting is supported', tag: 0},
-    {q: 'Which tool is used for creating and editing Delegation of Control?', a: '1) Cration - Delegation of Control Wizard<br>2) Editing - AD Users and Computers', tag: 0},
+    {q: 'Which tool is used for creating and editing Delegation of Control?', a: '1) Creation - Delegation of Control Wizard<br>2) Editing - AD Users and Computers', tag: 0},
     {q: 'Which OS is recommended for Priviledged Access Workstation?', a: 'Windows 10 Enterprise is recommended for PAW', tag: 0},
-    {q: 'Which two options does admin have to separate day-today tasks with admin activity?', a: '1) Dedicated hardware<br>2) Running VM for daily use', tag: 0},
-    {q: 'What is a jump server? What are its security features', a: '1) Jump server is a hardened server in a different security zone (between internal and perimeter networks)<br>2) Security features: Windows Defender Credential Guard, Remote Credential Guard, Device Guard', tag: 0},
+    {q: 'Which two options does admin have to separate day-to-day tasks with admin activities?', a: '1) Dedicated hardware<br>2) Running VM for daily use', tag: 0},
+    {q: 'What is a jump server? What are its security features?', a: '1) It is a hardened server in a zone between internal and perimeter networks<br>2) Security features: Windows Defender Credential Guard, Remote Credential Guard, Device Guard', tag: 0},
+    {q: 'Which TCP port is used by a Windows Admin Center? Which version of Server can be used?', a: '1) Port 6516<br>2) Windows Server 2008 R2 and later', tag: 0},
+    {q: 'How do you enable RSAT?', a: 'Settings - Manage Optional Features - Add a Feature', tag: 0},
+    {q: 'List most used tools from RSAT', a: 'ADDS, DHCP, DNS, File Services, IPAM, Group Policy, Remote Access', tag: 0},
+    {q: 'What is graphical environment for PowerShell called?', a: 'Windows PowerShell ISE (Integrated Scripting Environment)', tag: 0},
+    {q: 'What is a difference between Powershell remoting and PowerShell Direct?', a: '1)Powershell remoting connects to the remote computers<br>2) PowerShell Direct is used to run cmdlets or scripts inside VM from the host OS', tag: 0},
     {q: '', a: '', tag: 0},
   ],
   VMs_and_Containers: [
