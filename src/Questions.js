@@ -57,12 +57,12 @@ const Questions = {
     {q: 'Explain briefly the concept of JEA', a: 'Only a PowerShell session is allowed for a regular user to use specific set of cmdlets, parameters and scripts', tag: 0},
     {q: 'Three limitations of JEA', a: 'JEA cannot be used when the problem is not clearly defined<br>Windows Server 2016 or later<br>Windows 10 or later', tag: 0},
     {q: 'To define role capabilities for JEA - what file, which cmdlet and what configurations have to be defined?', a: 'Role capability file must be created<br>The cmdlet is NewPSRoleCapabilityFile<br>The following must be defined - VisibleAliases, V.Cmdlets, V.Functions, V.ExternalComands, V.Providers', tag: 0},
-    {q: '', a: '', tag: 0},
-    {q: '', a: '', tag: 0},
-    {q: '', a: '', tag: 0},
+    {q: 'What is needed to register JEA endpoint and what it controls?<br>Which cmdlet is used?<br>What is the file extension?', a: 'Session configuration file is responsible for naming JEA endpoint and controlling who can access, what roles the user is assigned and which identity is used<br>Cmdlet used is New-PSSessionConfigurationFile<br>The extension is .pssc', tag: 0},
+    {q: 'Which cmdlet registers JEA endpont on a single computer?', a: 'Register-PSSessionConfiguration', tag: 0},
+    {q: 'Process of configuring JEA (demonstation)', a: '1) Create folder and New_ModuleManifest .psd1 file<br>2) Create RoleCapability folder and .psrc file, open the file in ISE to configure the functionality<br>4) Create session config file .pssc to define the account<br>5) Register endpoint - Register-PSSessionConfiguration -Name and restart WinRM<br>enter-pssession -computername -ConfigurationName', tag: 0},
   ],
   VMs_and_Containers: [
-    {q: 'Question about VMs', a: 'Answer about VMs', tag: 0},
+    {q: 'What are three methods except Hyper-V Manager to manage Hyper-V and provide brief explanation', a: '1) PowerShell - configuration, status, general management<br>2) PowerShell Direct - EnterPSSession, issue PS cmdlets<br>3) Windows Admin Center (WAC) - similar to Hyper-V Manager', tag: 0},
     {q: '', a: '', tag: 0},
   ],
   Network: [
