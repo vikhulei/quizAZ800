@@ -91,10 +91,9 @@ const Questions = {
     {q: 'What is the process to use Docker for running a container?', a: '1) Start the Docker environment <br>2) Pull the container image from the library<br>3a) Run the container image and start a PowerShell session<br>3b) Alternatively, run the container without PowerShell and connect it to the port (8080:80)', tag: 0},
     {q: 'Describe security options for Windows containers: shared components, isolation mode, Windows updates, user accounts, image & runtime scanning', a: 'Shared components - Firewall and Defender from the host<br> Isolation mode - choose Hyper-V or process<br>Windows updates - taking it from the host<br>User accounts - by default it is Admin account, consider changing<br>Image & runtime scanning - use Defender for Cintainers', tag: 0},
     {q: 'How is persistent stirage provided for containers?<br>What are networking options?', a: 'The default storage is ephemeral - "scratch space". The permanent is provided by the Docker or the orchestrator<br>Networking - each container has a vNIC, connected to vSwitch. There are 5 nnetwork drivers to choose from', tag: 0},
-    {q: '', a: '', tag: 0},
-    {q: '', a: '', tag: 0},
-    {q: '', a: '', tag: 0},
-    {q: '', a: '', tag: 0},
+    {q: 'What does Windows container orchestrator do? What is the most popular orchatration tool?', a: 'Orchestrator automates and manages large number of containers and controls how the containers interact with each other<br>The most popular orchatration tool is Kubernetes', tag: 0},
+    {q: 'Describe Kubernetes architecture - 4 levels', a: 'Container runs inside a pod (which can have multiple containers)<br>Pod runs inside a node (which can have multiple pods)<br>The node is managed by a master node or control plane', tag: 0},
+    {q: 'What is the process of creating Kubernetes orchestration solution (4 steps)?', a: '1) Create Kubernetes master on a host with the help of kubeadm tool<br>2) Configure pod networking solution using kubectl CLI<br>3) Join worker nodes<br>4) Manage Kubernetes resources', tag: 0},
   ],
   Network: [
     {q: 'How many addresses are reserved in each subnet?', a: 'First four addresses', tag: 0},
