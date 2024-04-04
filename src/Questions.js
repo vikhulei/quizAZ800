@@ -110,7 +110,7 @@ const Questions = {
   ],
   Storage: [
     {q: 'Question about Storage', a: 'Answer about storage', tag: 0},
-    {q: '', a: '', tag: 0},
+    {q: 'Test question added', a: 'Test answer added', tag: 0},
     {q: '', a: '', tag: 0},
   ],
 
