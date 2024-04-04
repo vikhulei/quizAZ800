@@ -54,7 +54,7 @@ const Questions = {
     {q: 'How to manage access with RBAC?', a: 'Role-Based Access Control tabs:<br>Check access - seach for principals and check access level<br>Role assighnment - review current role assignment<br>Deny assignment - review blocked users<br>Classic administrqaors - if using Azure classic deploy<br>Roles - assign users to built-in roles', tag: 0},
     {q: 'What is the foundation of Azure Automanage best practices?', a: 'It is configuration profiles, buit-in or custom profiles can be used', tag: 0},
     {q: 'What are three ways to enable Azure Automanage?', a: '1) Azure portal - Automanage machines option<br>2) Azure Resource Manager (ARM) templates - JSON template, run with az deployment<br>Azure Policy - Portal -> Policy -> Definitions', tag: 0},
-    {q: 'Explain briefly the concept of JEA', a: 'Only a PowerShell session is allowed for a regular ser to use specific set of cmdlets, parameters and scripts', tag: 0},
+    {q: 'Explain briefly the concept of JEA', a: 'Only a PowerShell session is allowed for a regular user to use specific set of cmdlets, parameters and scripts', tag: 0},
     {q: 'Three limitations of JEA', a: 'JEA cannot be used when the problem is not clearly defined<br>Only on Windows Server 2016 or later<br>Only on Windows 10 or later', tag: 0},
     {q: 'To define role capabilities for JEA - what file, which cmdlet and what configurations have to be defined?', a: 'Role capability file must be created<br>The cmdlet is NewPSRoleCapabilityFile<br>The following must be defined - VisibleAliases, V.Cmdlets, V.Functions, V.ExternalComands, V.Providers', tag: 0},
     {q: 'What is needed to register JEA endpoint and what it controls?<br>Which cmdlet is used?<br>What is the file extension?', a: 'Session configuration file is responsible for naming JEA endpoint and controlling who can access, what roles the user is assigned and which identity is used<br>Cmdlet used is New-PSSessionConfigurationFile<br>The extension is .pssc', tag: 0},
@@ -110,7 +110,7 @@ const Questions = {
   ],
   Storage: [
     {q: 'Question about Storage', a: 'Answer about storage', tag: 0},
-    {q: '', a: '', tag: 0},
+    {q: 'Test question added', a: 'Test answer added', tag: 0},
     {q: '', a: '', tag: 0},
   ],
 
