@@ -103,7 +103,7 @@ const Questions = {
     {q: 'What are the steps to implement split-horizon DNS in Azure?', a: 'Create a public DNS zone and register the public IP addresses in that zone<br>Create a private DNS zone and link it to the appropriate VNet. VMs on that VNet will get automatically registered', tag: 0},
     {q: 'What are the tools to troublshoot DNS issues?', a: 'NSLookup, DNSCmd (manage DNS server role), DNSlint (diagnose DNS issues and generate report), IPConfig', tag: 0},
     {q: 'Name resolution troubleshooting process (4 steps)', a: '1) ipconfig /flushdns<br> 2) Ping the host ny the ip address<br>3) Ping by the host name<br>4) NSLookup.exe -d2 hostname > filename.txt<br>5) Examine the content of filename.txt', tag: 0},
-    {q: '', a: '', tag: 0},
+    {q: 'How to prevent an unknown DHCP server to provide invalid information to the clients?', a: 'Regoster DHCP server in the Active Directory', tag: 0},
     {q: '', a: '', tag: 0},
     {q: '', a: '', tag: 0},
     {q: '', a: '', tag: 0},
