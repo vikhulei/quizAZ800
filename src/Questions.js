@@ -96,11 +96,21 @@ const Questions = {
     {q: 'What is the process of creating Kubernetes orchestration solution (4 steps)?', a: '1) Create Kubernetes master on a host with the help of kubeadm tool<br>2) Configure pod networking solution using kubectl CLI<br>3) Join worker nodes<br>4) Manage Kubernetes resources', tag: 0},
   ],
   Network: [
-    {q: 'How many addresses are reserved in each subnet?', a: 'First four addresses', tag: 0},
+    {q: 'How many addresses are reserved in each Azure VNet subnet?', a: 'First four addresses', tag: 0},
+    {q: 'Which tools are used to create and manage DNS zones? What is the difference between public and private zones?', a: 'Azure portal, Azure CLI and Azure PowerShell<br>Public - anyone on Internet can access it; Private - maintains internal records of the company. Must be connected to specific Azure VNet', tag: 0},
+    {q: 'What is the difference between a recursive and authoritative DNS servers?', a: 'Recursive - looks for the information in other DNS servers, if it doesnt have it(e.g. ISP server<br>Authoritative - has the ip address for DNS name', tag: 0},
+    {q: 'What does on-prem DNS server do if it doesnt know the answer to the query?<br>What is the IP address for Azure recursive DNS servers?', a: 'It forwards the query to Azure recursive DNS resolver<br>168.63.129.16', tag: 0},
+    {q: 'What are the steps to implement split-horizon DNS in Azure?', a: 'Create a public DNS zone and register the public IP addresses in that zone<br>Create a private DNS zone and link it to the appropriate VNet. VMs on that VNet will get automatically registered', tag: 0},
+    {q: 'What are the tools to troublshoot DNS issues?', a: 'NSLookup, DNSCmd (manage DNS server role), DNSlint (diagnose DNS issues and generate report), IPConfig', tag: 0},
+    {q: 'Name resolution troubleshooting process (4 steps)', a: '1) ipconfig /flushdns<br> 2) Ping the host ny the ip address<br>3) Ping by the host name<br>4) NSLookup.exe -d2 hostname > filename.txt<br>5) Examine the content of filename.txt', tag: 0},
+    {q: '', a: '', tag: 0},
+    {q: '', a: '', tag: 0},
+    {q: '', a: '', tag: 0},
     {q: '', a: '', tag: 0},
   ],
   Storage: [
     {q: 'Question about Storage', a: 'Answer about storage', tag: 0},
+    {q: '', a: '', tag: 0},
     {q: '', a: '', tag: 0},
   ],
 
