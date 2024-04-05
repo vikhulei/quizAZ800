@@ -132,6 +132,8 @@ const Questions = {
     {q: 'List and explain 4 Azure VPN types', a: 'S2S - IPSec/IKE is used<br>Mutisite - variation of S2S<br>Point-to-site - SSTP or IKEv2. No VPN device or public ip needed<br>VNet-to-VNet - similar to S2S', tag: 0},
     {q: 'Whats is the process of creating an Azure virtual WAN?', a: 'Create WAN -> inside a WAN create a hub -> inside a WAN created a VPN site -> connect a VPN site to hub -> connect VNet to a hub', tag: 0},
     {q: 'What are the limitations of Azure DNS?', a: 'Link VNet to one private DNS zone<br>Reverse DNS works only for private address space<br>Conditional forwarding not supported<br>Zone transfers not supported', tag: 0},
+    {q: 'What are two SKUs for public addresses allocation in Azure?', a: 'Two stock keeping untis are:<br>Basic - support both dynamic and static methods<br>Standard - support only static allocation', tag: 0},
+    {q: '', a: '', tag: 0},
     {q: '', a: '', tag: 0},
   ],
   Storage: [
