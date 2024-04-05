@@ -5,7 +5,7 @@ const Questions = {
     {q: 'Three steps to deploy Azure AD Domain Services and prepare it for VM joining', a: '1) Create Az virtual network<br>2) Create Azure AD DS instance<br>3) Modify virtual network settings', tag: 0},
     {q: 'Which tool is used to trigger ADDS schema update?', a: 'ADSIEDIT.MSC', tag: 0},
     {q: 'How to set up replication between two sites?', a: '1) Create sites and move DCs to them<br>2) Create connection objects for the pair of DCs', tag: 0},
-    {q: 'Which consoles ares used to transfer FSMO roles?', a: '1) Schema master - AD Schema<br>2) Domain naming - AD Domains and Trusts<br>3) RID, PDC and Infrasturcture - AD Usera and Computers<br> 4)Ntdsutil.exe - for all and to seize', tag: 0},
+    {q: 'Which consoles are used to transfer FSMO roles?', a: '1) Schema master - AD Schema<br>2) Domain naming - AD Domains and Trusts<br>3) RID, PDC and Infrasturcture - AD Usera and Computers<br> 4)Ntdsutil.exe - for all and to seize', tag: 0},
     {q: 'Which account to use to sync on-prem AD with Azure AD tenant using Azure AD Connect?', a: 'group managed service account (gMSA)', tag: 0},
     {q: 'Which two tools are used to sync on-prem with Azure tenant?', a: '1) Azure AD Connect<br>2) Azure portal', tag: 0},
     {q: 'What is lifetime of AD Recycle Bin?', a: '180 days', tag: 0},
