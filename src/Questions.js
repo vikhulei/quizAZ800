@@ -164,7 +164,7 @@ const Questions = {
     {q: 'What are two ways to implement high availability for iSCSI?', a: '1) Multiple Connections per Session (MCS) - single session is established with multiple connections<br>Multipath Input/Output (MPIO) - multiple sessions are established', tag: 0},
     {q: 'How many volumes are required for a Storage Replica?', a: 'Two NTFS or two ReFS volumes at sourse (primary) and two at destination (secondary) for data and replication logs', tag: 0},
     {q: 'What are two types of storage replication?', a: 'Synchronous - between sites close to each other. Crash-consisstant<br>Asynchronous - accross longer distances. Latency exceeds 5 msec, subject to data loss.', tag: 0},
-    {q: '', a: '', tag: 0},
+    {q: 'What are prerequisites to use Storage Replica: RAM, CPU, Windows Server version, three connection protocols and ports', a: '2Gb of RAM, 2 CPU cores, Win Server 2016 Datacenter or higher<br>Protocols are ICMP, SMB (port 445 plus port 5445 fpr SM Direct and WS-MAN (port 5985', tag: 0},
     {q: '', a: '', tag: 0},
     {q: '', a: '', tag: 0},
     {q: '', a: '', tag: 0},
