@@ -161,7 +161,7 @@ const Questions = {
     {q: 'What is iSCSI?', a: 'Internet Small Computer System Interface<br>TCP/IP-based storage networking standard for connecting to storage over a standard Ethernet network<br>It creates logical storage area network (SAN) and uses TCP port 3260', tag: 0},
     {q: 'What is authentication protocol used for iSCSI (and explain)?<br>What is scalability of iSCSI?', a: 'It uses CHAP (Challenge Handshake Auth Protocol) - three-way handshake (server send a challenge message -> the requestor responds with a value from hash function -> server checks and accepts or rejects)<br> It scales to 256 targets and 512 virtual disks', tag: 0},
     {q: 'What are steps to implement iSCSI?', a: '1) Install iSCSI Target role service<br>2) Allow iSCSI traffic in the firewall<br>Create iSCSI disk and assign to iSCSI target (using Server Manager)<br>Connect to iSCSI Target, using iSCSI Initiator<br>Validate presence of a new volume', tag: 0},
-    {q: 'What are two ways to implement high availability for iSCSI?', a: '1) Multiple Connections per Sessions (MCS) - <br>Multipath Input/Output (MPIO) - ', tag: 0},
+    {q: 'What are two ways to implement high availability for iSCSI?', a: '1) Multiple Connections per Session (MCS) - single session is established with multiple connections<br>Multipath Input/Output (MPIO) - multiple sessions are established', tag: 0},
     {q: '', a: '', tag: 0},
     {q: '', a: '', tag: 0},
     {q: '', a: '', tag: 0},
