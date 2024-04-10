@@ -162,6 +162,8 @@ const Questions = {
     {q: 'What is authentication protocol used for iSCSI (and explain)?<br>What is scalability of iSCSI?', a: 'It uses CHAP (Challenge Handshake Auth Protocol) - three-way handshake (server send a challenge message -> the requestor responds with a value from hash function -> server checks and accepts or rejects)<br> It scales to 256 targets and 512 virtual disks', tag: 0},
     {q: 'What are steps to implement iSCSI?', a: '1) Install iSCSI Target role service<br>2) Allow iSCSI traffic in the firewall<br>Create iSCSI disk and assign to iSCSI target (using Server Manager)<br>Connect to iSCSI Target, using iSCSI Initiator<br>Validate presence of a new volume', tag: 0},
     {q: 'What are two ways to implement high availability for iSCSI?', a: '1) Multiple Connections per Session (MCS) - single session is established with multiple connections<br>Multipath Input/Output (MPIO) - multiple sessions are established', tag: 0},
+    {q: 'How many volumes are required for a Storage Replica?', a: 'Two NTFS or two ReFS volumes at sourse (primary) and two at destination (secondary) for data and replication logs', tag: 0},
+    {q: 'What are two types of storage replication?', a: 'Synchronous - between sites close to each other. Crash-consisstant<br>Asynchronous - accross longer distances. Latency exceeds 5 msec, subject to data loss.', tag: 0},
     {q: '', a: '', tag: 0},
     {q: '', a: '', tag: 0},
     {q: '', a: '', tag: 0},
