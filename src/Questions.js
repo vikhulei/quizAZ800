@@ -169,6 +169,8 @@ const Questions = {
     {q: 'Steps to implement Storage Replica with Windows Admin Center', a: '1) Enable CredSSP authentication using PS<br>2) Install SR feature<br>3) Create new partnership: provide name, source and destination data and log volumes<br>4) In settings - pause, switch direction, add servers', tag: 0},
     {q: 'What is Azure Files?', a: 'It is a PaaS cloud service, offering the functionality of an on-premises file share', tag: 0},
     {q: 'What is Azure File Sync?', a: 'It is a centralized location of file shares in Azure Files, while keeping the performance of on-premises file server', tag: 0},
+    {q: 'Describe identity-based authentication to Azure Files (3 points)', a: '1) Enable Microsoft Entra DS or sync on-prem ADDS with Entra<br>User can authenticate only from domain-joined devices<br>Kerberous tokens are used', tag: 0},
+    {q: 'What is the difference between ', a: '', tag: 0},
     {q: '', a: '', tag: 0},
     {q: '', a: '', tag: 0},
     {q: '', a: '', tag: 0},
