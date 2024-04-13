@@ -183,7 +183,10 @@ const Questions = {
     {q: 'What is DFSR and DFS-N?', a: 'DFSR - Distributed File System Replication (sync folders accross LAN and WAN)<br>DFS-N - Distributed File System Namespaces (groups shared folders from different servers)', tag: 0},
     {q: 'What are three advanrages of File Sync over DFSR?', a: '1) Syncing to Azure file share for centralized backup<br>2) Rapid namespace restoration<br>3) Cloud tiering', tag: 0},
   ],
-
+Exam: [
+{q: 'How to create a GPO in Azure ADDC?', a: 'AADDC Admin group<br>Group Policy Mgmt Console<br>AADDC Computers OR AADDC Users', tag: 0},
+{q: '', a: '', tag: 0},
+],
 };
 
 export default Questions;
