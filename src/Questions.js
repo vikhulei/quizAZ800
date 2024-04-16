@@ -186,7 +186,7 @@ const Questions = {
 Exam: [
 {q: 'How to create a GPO in Azure ADDC?', a: 'AADDC Admin group<br>Group Policy Mgmt Console<br>AADDC Computers OR AADDC Users', tag: 0},
 {q: 'How to deploy RODC?', a: '1) Create site<br>2) Precreate RODC account<br>3) Staging RODC account (Run ADDS Wizard)<br>4) Attaching RODC (Run ADDS Wizard)', tag: 0},
-{q: 'How to link GPO to specific targets?', a: '', tag: 0},
+{q: 'How to link GPO to specific targets?', a: 'Can link to Sites, Domains, OUs<br>Security filter - groups, users or computers<br>WMI filter - OS, free space, etc.<br>Enforce - highest level of precedence', tag: 0},
 {q: '', a: '', tag: 0},
 {q: '', a: '', tag: 0},
 ],
