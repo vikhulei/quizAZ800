@@ -187,6 +187,9 @@ Exam: [
 {q: 'How to create a GPO in Azure ADDC?', a: 'AADDC Admin group<br>Group Policy Mgmt Console<br>AADDC Computers OR AADDC Users', tag: 0},
 {q: '', a: '', tag: 0},
 ],
+Definitions: [
+{q: '', a: '', tag: 0}
+],
 };
 
 export default Questions;
