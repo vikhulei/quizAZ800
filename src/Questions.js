@@ -187,11 +187,22 @@ Exam: [
 {q: 'How to create a GPO in Azure ADDC?', a: 'AADDC Admin group<br>Group Policy Mgmt Console<br>AADDC Computers OR AADDC Users', tag: 0},
 {q: 'How to deploy RODC?', a: '1) Create site<br>2) Precreate RODC account<br>3) Staging RODC account (Run ADDS Wizard)<br>4) Attaching RODC (Run ADDS Wizard)', tag: 0},
 {q: 'How to link GPO to specific targets?', a: 'Can link to Sites, Domains, OUs<br>Security filter - groups, users or computers<br>WMI filter - OS, free space, etc.<br>Enforce - highest level of precedence', tag: 0},
+{q: 'List responsibilities of FSMO roles', a: 'Domain naming - domain name space (partitions)<br>RID master - RID pool, moving to another domain<br>PDC Emulator - time, password change<br>Schema master - update to directory schema<br>Infrastructure - update objects SID in cross-domain reference. Not on Global Catalogue', tag: 0},
+{q: 'What is Conditional Access policy?', a: 'If-then statements, that takes signals from various sources when making access decisions', tag: 0},
+{q: 'How to add a server group to NLB using gSMA?', a: 'Add-KdsRootKey<br>New-ADServiceAccount<br>Install-ADSErviceAccount<br>Add-ADPrincipalGroupMembership or Set-ADServiceAccount', tag: 0},
+{q: 'What is the difference between Administrator and DomainAdmin groups?', a: 'Administrator - has full rights on the computer where they reside<br>DomainAdmin has full rights of the entire domain', tag: 0},
+{q: 'How to comfigure the stie link so that computers are authenticated by Site1?', a: 'Configure site link and site cost to the highest cost', tag: 0},
+{q: 'Universal security Group - what are:<br>- possible members<br>- possible member of<br>- can grant permission', a: 'Members - same forest<br>Member of - Universal of the same forest, Domain local of the same or trusting forest, Local group in the same or trusting forest<br>Grant permission - same or trusting forest', tag: 0},
+{q: 'Global security Group - what are:<br>- possible members<br>- possible member of<br>- can grant permission', a: 'Members - same domain<br>Member of - Universal and Domain local in the same forest, Global in the same domain<br>Grant permissions - same or trusting domain and forest', tag: 0},
+{q: 'Doman local security Group - what are:<br>- possible members<br>- possible member of<br>- can grant permission', a: 'Members - any<br>Member of - local groups in the same domain<br>Grant permission - within the same domain', tag: 0},
+{q: 'Which command is used to create a partition to host DNS zone?', a: 'DNS manager - DnsCmd', tag: 0},
+{q: 'What needs to be installed and used to enable password hash synchronization?', a: 'Install Azure AD Connect, use Azure portal', tag: 0},
+{q: '', a: '', tag: 0},
 {q: '', a: '', tag: 0},
 {q: '', a: '', tag: 0},
 ],
 Definitions: [
-{q: '', a: '', tag: 0}
+{q: '', a: '', tag: 0},
 ],
 };
 
